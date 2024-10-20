@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/GGU.png" alt="#"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="https://giet.ac.in/contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- ---------------------about us section---------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds Largest tech training Center</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ipsa iste vitae fugiat et quia
+                    repudiandae incidunt quidem. Tenetur quisquam quia illo, doloribus sapiente sed sunt aliquam minima
+                    excepturi vel dolores tempora, harum debitis quis odio saepe est molestiae cupiditate, maxime
+                    praesentium omnis! Quaerat quae nam aliquid reprehenderit maxime molestiae. Asperiores iure voluptas
+                    obcaecati qui repellendus quibusdam magni ut corporis officia eligendi? Error beatae hic distinctio
+                    eius voluptatem doloribus unde quidem rem eos totam dolore, recusandae corrupti voluptas minima.
+                    Commodi corrupti corporis quos praesentium quae pariatur perferendis quisquam dolorem. Vero
+                    aspernatur non minus libero ipsam quaerat sequi beatae, perspiciatis adipisci!</p>
+                    <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- /* --------------------------footer---------------------------- */ -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui minima error, quidem reprehenderit esse quasi
+            sint quis tempora, <br>expedita labore tempore autem ea velit harum amet impedit illum dolores possimus.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <a href="#" class="madeby">@Techwing</a> by Surya Sir</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------javascript for toggle menu------------------ -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
